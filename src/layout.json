@@ -1,16 +1,16 @@
 [
   {
     "type": "header", 
-    "value": "Example Scouting App",
+    "value": "Athens Scouting App",
     "decorator": "title"
   },
   {
     "type": "label",
-    "value": "Identification",
+    "value": "Team Info",
     "decorator": "label"
   },
   {
-    "title": "Name",
+    "title": "Team Name",
     "type": "textbox",
     "value": "",
     "required": true,
@@ -47,219 +47,178 @@
   },
   {
     "type": "label",
-    "value": "Autonomous",
+    "value": "Autonomous Phase",
     "decorator": "label"
   },
   {
-    "title": "Crossed Auto Line",
+    "title": "Did it move?",
     "type": "checkbox",
     "value": false,
     "decorator": "crossed_auto_line_input"
   },
   {
-    "title": "Docked Auto",
-    "type": "checkbox",
-    "value": false,
-    "decorator": "docked_auto_input"
-  },
-  {
-    "title": "Engaged Auto",
-    "type": "checkbox",
-    "value": false,
-    "decorator": "engaged_auto_input"
-  },
-  {
-    "title": "Cone Upper Auto",
+    "title": "Notes Scored in Amp (auto)",
     "type": "counter",
     "value": 0,
     "increment": 1,
     "resetToValue": 0,
-    "maxValue": 10,
+    "maxValue": 99,
     "minValue": 0,
-    "decorator": "cone_upper_auto_input"
+    "decorator": "auto_amp_scores"
   },
   {
-    "title": "Cone Middle Auto",
+    "title": "Notes Scored in Speaker (auto)",
     "type": "counter",
     "value": 0,
     "increment": 1,
     "resetToValue": 0,
-    "maxValue": 10,
+    "maxValue": 99,
     "minValue": 0,
-    "decorator": "cone_middle_auto_input"
+    "decorator": "auto_speaker_scores"
   },
   {
-    "title": "Cone Lower Auto",
+    "title": "Total auto notes scored",
     "type": "counter",
     "value": 0,
     "increment": 1,
     "resetToValue": 0,
-    "maxValue": 10,
+    "maxValue": 99,
     "minValue": 0,
-    "decorator": "cone_lower_auto_input"
+    "decorator": "auto_total"
   },
   {
-    "title": "Cube Upper Auto",
-    "type": "counter",
-    "value": 0,
-    "increment": 1,
-    "resetToValue": 0,
-    "maxValue": 10,
-    "minValue": 0,
-    "decorator": "cube_upper_auto_input"
-  },
-  {
-    "title": "Cube Middle Auto",
-    "type": "counter",
-    "value": 0,
-    "increment": 1,
-    "resetToValue": 0,
-    "maxValue": 10,
-    "minValue": 0,
-    "decorator": "cube_middle_auto_input"
-  },
-  {
-    "title": "Cube Lower Auto",
-    "type": "counter",
-    "value": 0,
-    "increment": 1,
-    "resetToValue": 0,
-    "maxValue": 10,
-    "minValue": 0,
-    "decorator": "cube_lower_auto_input"
-  },
-  {
-    "type": "label",
-    "value": "Teleop",
-    "decorator": "label"
-  },
-  {
-    "title": "Cone Upper Teleop",
-    "type": "counter",
-    "value": 0,
-    "increment": 1,
-    "resetToValue": 0,
-    "maxValue": 20,
-    "minValue": 0,
-    "decorator": "cone_upper_teleop_input"
-  },
-  {
-    "title": "Cone Middle Teleop",
-    "type": "counter",
-    "value": 0,
-    "increment": 1,
-    "resetToValue": 0,
-    "maxValue": 20,
-    "minValue": 0,
-    "decorator": "cone_middle_teleop_input"
-  },
-  {
-    "title": "Cone Lower Teleop",
-    "type": "counter",
-    "value": 0,
-    "increment": 1,
-    "resetToValue": 0,
-    "maxValue": 20,
-    "minValue": 0,
-    "decorator": "cone_lower_teleop_input"
-  },
-  {
-    "title": "Cube Upper Teleop",
-    "type": "counter",
-    "value": 0,
-    "increment": 1,
-    "resetToValue": 0,
-    "maxValue": 20,
-    "minValue": 0,
-    "decorator": "cube_upper_teleop_input"
-  },
-  {
-    "title": "Cube Middle Teleop",
-    "type": "counter",
-    "value": 0,
-    "increment": 1,
-    "resetToValue": 0,
-    "maxValue": 20,
-    "minValue": 0,
-    "decorator": "cube_middle_teleop_input"
-  },
-  {
-    "title": "Cube Lower Teleop",
-    "type": "counter",
-    "value": 0,
-    "increment": 1,
-    "resetToValue": 0,
-    "maxValue": 20,
-    "minValue": 0,
-    "decorator": "cube_lower_teleop_input"
-  },
-  {
-    "title": "Fumbles",
-    "type": "counter",
-    "value": 0,
-    "increment": 1,
-    "resetToValue": 0,
-    "maxValue": 20,
-    "minValue": 0,
-    "decorator": "fumbles_input"
-  },
-  {
-    "title": "Supercharged Pieces",
-    "type": "counter",
-    "value": 0,
-    "increment": 1,
-    "resetToValue": 0,
-    "maxValue": 20,
-    "minValue": 0,
-    "decorator": "supercharged_pieces_input"
-  },
-  {
-    "type": "label",
-    "value": "Endgame",
-    "decorator": "label"
-  },
-  {
-    "title": "Docked Teleop",
-    "type": "checkbox",
-    "value": false,
-    "decorator": "docked"
-  },
-  {
-    "title": "Engaged Teleop",
-    "type": "checkbox",
-    "value": false,
-    "decorator": "engaged"
-  },
-  {
-    "title": "Chargepad Failure",
-    "type": "checkbox",
-    "value": false,
-    "decorator": "chargepad_failure"
-  },
-  {
-    "type": "label",
-    "value": "Temporary Failure",
-    "decorator": "label"
-  },
-  {
-    "title": "Critical Failure",
-    "type": "checkbox",
-    "value": false,
-    "decorator": "critical_failure"
-  },
-  {
-    "title": "What they did well",
+    "title": "General Auto Strategy",
     "type": "textboxlong",
     "value": "",
     "resetToValue": "",
-    "decorator": "what_they_did_well_input"
+    "decorator": "what_they_did_auto_input"
   },
   {
-    "title": "What they need to improve",
+    "type": "label",
+    "value": "Teleop Phase",
+    "decorator": "label"
+  },
+  {
+    "title": "Notes scored in amp",
+    "type": "counter",
+    "value": 0,
+    "increment": 1,
+    "resetToValue": 0,
+    "maxValue": 99,
+    "minValue": 0,
+    "decorator": "Amp_scores"
+  },
+  {
+    "title": "Notes scored in speaker",
+    "type": "counter",
+    "value": 0,
+    "increment": 1,
+    "resetToValue": 0,
+    "maxValue": 99,
+    "minValue": 0,
+    "decorator": "Speaker_scores"
+  },
+  {
+    "title": "Notes scored in amped speaker (if any)",
+    "type": "counter",
+    "value": 0,
+    "increment": 1,
+    "resetToValue": 0,
+    "maxValue": 99,
+    "minValue": 0,
+    "decorator": "amped_speaker_scores"
+  },
+  {
+    "title": "Got on stage",
+    "type": "checkbox",
+    "value": false,
+    "decorator": "staged"
+  },
+  {
+    "title": "Scored note in trap",
+    "type": "checkbox",
+    "value": false,
+    "decorator": "Note_trap"
+  },
+  {
+    "title": "Scored Co-op Note",
+    "type": "checkbox",
+    "value": false,
+    "decorator": "coop_score"
+  },
+  {
+    "title": "Total Teleop Points",
+    "type": "counter",
+    "value": 0,
+    "increment": 1,
+    "resetToValue": 0,
+    "maxValue": 99,
+    "minValue": 0,
+    "decorator": "teleop_total"
+  },
+  {
+    "title": "General Teleop Strategy",
     "type": "textboxlong",
     "value": "",
     "resetToValue": "",
-    "decorator": "what_they_need_to_improve_input"
+    "decorator": "what_they_did_teleop_input"
+  },
+  {
+    "type": "label",
+    "value": "Violations & other",
+    "decorator": "label"
+  },
+  {
+    "title": "Fouls (if any)",
+    "type": "counter",
+    "value": 0,
+    "increment": 1,
+    "resetToValue": 0,
+    "maxValue": 99,
+    "minValue": 0,
+    "decorator": "Foul_Count"
+  },
+  {
+    "title": "Tech Fouls (if any)",
+    "type": "counter",
+    "value": 0,
+    "increment": 1,
+    "resetToValue": 0,
+    "maxValue": 99,
+    "minValue": 0,
+    "decorator": "Tech_Foul_Count"
+  },
+  {
+    "title": "Yellow Cards (if any)",
+    "type": "counter",
+    "value": 0,
+    "increment": 1,
+    "resetToValue": 0,
+    "maxValue": 99,
+    "minValue": 0,
+    "decorator": "Yellow_Count"
+  },
+  {
+    "title": "Red Cards (if any)",
+    "type": "counter",
+    "value": 0,
+    "increment": 1,
+    "resetToValue": 0,
+    "maxValue": 99,
+    "minValue": 0,
+    "decorator": "Red_Count"
+  },
+  {
+    "title": "Was Disabled?",
+    "type": "checkbox",
+    "value": false,
+    "decorator": "critical_Disable"
+  },
+  {
+    "title": "Was Disqualified?",
+    "type": "checkbox",
+    "value": false,
+    "decorator": "critical_Disqualify"
   },
   {
     "title": "Additional Notes",
